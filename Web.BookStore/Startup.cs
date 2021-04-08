@@ -24,6 +24,7 @@ namespace Web.BookStore
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                //app.UseRouting();
             }
 
             app.UseRouting();
